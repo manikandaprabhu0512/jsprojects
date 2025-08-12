@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10;
+  font-family: system-ui, sans-serif;
+  color: white;
+  background-color: #212121;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.label {
+  padding-bottom: 10px;
+}
+
+.input {
+  padding: 5px;
+}
+
+.div-input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  gap: 3px;
+}
+
+.div-btn {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px;
+  font-size: medium;
+  background-color: green;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+}
+
+.para {
+  text-align: center;
+}
+
+.project-link {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+  margin: 15px;
+}
+
+.go-back {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
