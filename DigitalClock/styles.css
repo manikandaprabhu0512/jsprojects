@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10;
+  font-family: system-ui, sans-serif;
+  color: white;
+  background-color: #212121;
+}
+
+.div-clock {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.clock {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
